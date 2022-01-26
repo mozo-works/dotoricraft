@@ -7,9 +7,9 @@
   "private": true,
   "devDependencies": {
     "@alpinejs/collapse": "^3.7.1",
+    "@alpinejs/focus": "^3.7.1",
     "@alpinejs/intersect": "^3.7.1",
     "@alpinejs/persist": "^3.7.1",
-    "@alpinejs/focus": "^3.7.1",
     "@kingshott/iodine": "^7.0.1",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.4.0",
@@ -27,9 +27,12 @@
   "scripts": {
     "start": "concurrently npm:watch:*",
     "watch:css": "tailwindcss -c assets/_jsconfig/tailwind.config.js -i ./assets/app.css -o ./static/assets/app.min.css --watch --minify",
-    "watch:hugo": "hugo serve",
+    "watch:hugo": "hugo serve --ignoreCache -D",
     "build:css": "tailwindcss -c assets/_jsconfig/tailwind.config.js -i ./assets/app.css -o ./static/assets/app.min.css --minify",
     "build:hugo": "hugo --gc --minify",
     "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "google-spreadsheet": "^3.2.0"
   }
 }

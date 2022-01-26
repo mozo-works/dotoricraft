@@ -34,3 +34,17 @@ store:
   email: dotoricraft@gmail.com
   termsOfuse: '/terms-of-use'
   privacyPolicy: '/privacy-policy'
+
+product:
+  colors:
+    베이지: '#eadeb4'
+    블랙: '#000000'
+    오랜지: '#ff9800'
+    레드: '#f44336'
+    카라멜: '#c28318'
+    올리브: '#747f1a'
+    진밤: '#5b3d3d'
+    노랑: '#ffd900'
+    핑크: '#fea3d7'
+    레몬: '#fff5b9'
+    스카이: '#9ae0fb'

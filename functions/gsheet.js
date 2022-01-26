@@ -28,28 +28,27 @@ exports.handler = async (event, context) => {
   });
   await doc.loadInfo();
 
+  const path = event.path.replace(/\.netlify\/functions\/[^/]+/, '');
+  const segments = path.split('/').filter((e) => e);
   let sheet = doc.sheetsByIndex[0];
-  if ('sheet-title' in event.headers) {
-    let sheetTitle = event.headers['sheet-title'];
-    if (sheetTitle in doc.sheetsByTitle) {
-      sheet = doc.sheetsByTitle[sheetTitle];
-    }
-    else {
-      throw new Error('Sheet title "' + sheetTitle + '" not found.');
-    }
+  if (segments.length === 1 && segments[0] in doc.sheetsByTitle) {
+    sheet = doc.sheetsByTitle[segments[0]];
   }
 
   try {
     switch (event.httpMethod) {
       case 'GET':
-        if (segments.length === 0) {
-          const rows = await sheet.getRows();
-          const serializedRows = rows.map(serializeRow);
-          return {
-            statusCode: 200,
-            body: JSON.stringify(serializedRows) // better
-          };
-        }
+        const rows = await sheet.getRows();
+        const serializedRows = rows.map(serializeRow);
+        return {
+          statusCode: 200,
+          body: JSON.stringify(serializedRows),
+          headers: {
+            'Access-Control-Allow-Credentials': true,
+            'Access-Control-Allow-Origin': '*',
+            'Content-Type': 'application/json',
+          },
+        };
       default:
         return {
           statusCode: 500,
@@ -64,5 +63,16 @@ exports.handler = async (event, context) => {
       statusCode: 500,
       body: err.toString()
     };
+  }
+
+  /**
+   * utils
+   */
+  function serializeRow(row) {
+    let temp = {};
+    sheet.headerValues.map((header) => {
+      temp[header] = row[header];
+    });
+    return temp;
   }
 };
