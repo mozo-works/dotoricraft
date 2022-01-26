@@ -9,7 +9,6 @@ import { Iodine } from '@kingshott/iodine';
 const iodine = new Iodine();
 
 window.Alpine = Alpine
-window.params = params
 window.$ = document.querySelector.bind(document)
 window.$$ = document.querySelectorAll.bind(document);
 window.iodine = iodine;
@@ -18,5 +17,5 @@ window.iodine = iodine;
 Alpine.start()
 
 window.addEventListener('DOMContentLoaded', () => {
-  console.log('dom ready!', params)
+  console.log('dom ready!')
 })
