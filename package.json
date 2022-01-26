@@ -26,6 +26,7 @@
   },
   "scripts": {
     "start": "concurrently npm:watch:*",
+    "build": "concurrently npm:build:*",
     "watch:css": "tailwindcss -c assets/_jsconfig/tailwind.config.js -i ./assets/app.css -o ./static/assets/app.min.css --watch --minify",
     "watch:hugo": "hugo serve --ignoreCache -D",
     "build:css": "tailwindcss -c assets/_jsconfig/tailwind.config.js -i ./assets/app.css -o ./static/assets/app.min.css --minify",
