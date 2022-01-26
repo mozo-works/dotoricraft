@@ -1,0 +1,7 @@
+title: 도토리크라프트
+baseURL: 'https://dotoricraft.com'
+
+languageCode: ko-kr
+defaultContentLanguage: ko
+hasCJKLanguage: true
+newContentEditor: code

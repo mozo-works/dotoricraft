@@ -1,0 +1,7 @@
+main:
+- name: About
+  url: /about/
+  weight: -110
+- name: Class
+  url: /class/
+  weight: -100

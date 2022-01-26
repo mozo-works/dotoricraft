@@ -1,0 +1,6 @@
+hugoVersion:
+  extended: true
+  min: "0.92"
+
+imports:
+- path: github.com/gohugoio/hugo-mod-heroicons
