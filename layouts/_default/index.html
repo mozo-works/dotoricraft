@@ -1,8 +1,12 @@
-{{ define "main" }}{{ $functionHost := .Site.BaseURL }}{{ if (not hugo.IsProduction) }}{{ $functionHost = "http://localhost:8889/" }}{{ end }}{{- $colorSchemes := $.Site.Params.product.colors -}}
+{{ define "main" }}{{ $functionHost := .Site.BaseURL }}{{ if (not hugo.IsProduction) }}{{ $functionHost = "http://localhost:8889/" }}{{ end }}
 <main>
   <div id="products" class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-      {{ partial "ecommerce/product-card.html" (dict "functionHost" $functionHost "colorSchemes" $colorSchemes "naverShoppingHost" $.Site.Params.social.links.naverShopping) }}
+      {{ partial "ecommerce/product-card.html" (dict
+        "functionHost" $functionHost
+        "colorSchemes" $.Site.Params.product.colors
+        "naverShoppingHost" $.Site.Params.social.links.naverShopping
+      ) }}
     </div>
   </div>
 </main>

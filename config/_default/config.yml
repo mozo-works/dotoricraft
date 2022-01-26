@@ -1,5 +1,5 @@
 title: 도토리크라프트
-baseURL: 'https://dotoricraft.com'
+baseURL: 'https://dotoricraft.netlify.app'
 
 languageCode: ko-kr
 defaultContentLanguage: ko
