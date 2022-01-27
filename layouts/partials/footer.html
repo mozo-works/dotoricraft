@@ -1,2 +1,14 @@
-<footer>body.footer</footer>
-{{ partial "marketing/social-links" . }}
+<section class="w-full border-t-2 pt-2">
+  <footer class="max-w-2xl lg:max-w-7xl mx-auto px-4 flex justify-between bg-white h-16">
+    <ul class="list-inline mt-xs-3 mb-xs-4 mb-sm-0 pl-xs-4 pr-xs-4 pl-sm-0 pr-sm-0">
+    {{ range $social, $link := $.Site.Params.social.links }}
+      <li class="inline">
+        <a class="p-xs-1" href="{{ $link }}" target="_blank">
+          svg {{ $social }}
+          <span class="sr-only">{{ $social }}</span>
+        </a>
+      </li>
+    {{ end }}
+    </ul>
+  </footer>
+</section>
