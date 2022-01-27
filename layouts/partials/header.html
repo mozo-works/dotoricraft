@@ -1,7 +1,7 @@
-<div class="flex-1 flex flex-col">
-  <nav class="px-4 flex justify-between bg-white h-16 border-b-2">
+<div class="w-full border-b-2">
+  <nav class="max-w-2xl lg:max-w-7xl mx-auto px-4 flex justify-between bg-white h-16">
     <ul class="flex items-center">
-      <li class="h-6 w-6"><a href="/about">about</a></li>
+      <li>{{ partial "base/heroicon" (dict "icon" "solid/sun") }}</li>
     </ul>
     <ul class="flex items-center">
       <li>
@@ -11,8 +11,8 @@
       </li>
     </ul>
     <ul class="flex items-center">
+      <li class="h-6 w-6"><a href="/about">about</a></li>
       <li class="pr-6"><a href="/class">class</a></li>
-      <li class="pr-6"><a href="/contact">contact</a></li>
     </ul>
   </nav>
 </div>

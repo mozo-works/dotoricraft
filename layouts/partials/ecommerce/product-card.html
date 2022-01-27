@@ -1,18 +1,20 @@
-{{- with resources.GetRemote (printf "%s/.netlify/functions/gsheet/products" .functionHost) }}{{ with .Err }}{{ warnf "%s" . }}{{ else }}
-{{- range $product := .Content | unmarshal }}{{ $product_url := (printf "%s/products/%s" $.naverShoppingHost $product.id) }}
+{{- with resources.GetRemote (printf "%s/.netlify/functions/gsheet/products" (.Scratch.Get "functionHost")) }}{{ with .Err }}{{ warnf "%s" . }}{{ else }}
+{{- range $product := .Content | unmarshal }}{{ $params := $.Scratch.Get "params" }}{{ $product_url := (printf "%s/products/%s" $params.social.links.naverShopping $product.id) }}
 <div class="group relative">
   <div class="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
-    <img src="{{ $product.thumbnail }}" alt="{{ $product.title }}" class="w-full h-full object-center object-cover lg:w-full lg:h-full">
+    <img src="{{ $product.thumbnail }}" alt="{{ $product.title }}" class="w-full h-full object-center object-cover lg:w-full lg:h-full border-[1px]">
   </div>
   <div class="mt-4 flex justify-between">
     <div>
       <h3 class="text-sm text-gray-700"><a href="{{ $product_url }}" target="_blank"><span aria-hidden="true" class="absolute inset-0"></span>{{ $product.title }}</a></h3>
-      <p class="mt-1 text-sm text-gray-500">{{ partial "ecommerce/field-colors.html" (dict "colors" $product.colors "colorSchemes" $.colorSchemes) }}</p>
+      <p class="mt-1 text-sm text-gray-500">{{ partial "ecommerce/field-colors.html" (dict "colors" $product.colors "presets" $params.product.colors) }}</p>
     </div>
-    <span class="text-sm font-medium text-gray-900">{{ index $product "sale_price" | lang.FormatNumber 0 }}</span>
-    {{- if and (isset $product "sale_price") (isset $product "price") (ne $product.price "") }}
-     <del class="text-sm text-gray-400">({{ index $product "price" | lang.FormatNumber 0 }})</del>
-    {{ end }}
+    <span class="text-sm font-medium text-gray-900">
+      {{ index $product "sale_price" | lang.FormatNumber 0 }}
+      {{- if and (isset $product "sale_price") (isset $product "price") (ne $product.price "") }}
+      <del class="text-sm text-gray-400">({{ index $product "price" | lang.FormatNumber 0 }})</del>
+      {{ end }}
+    </span>
   </div>
 </div>
 {{ end }}{{ end -}}{{ end -}}

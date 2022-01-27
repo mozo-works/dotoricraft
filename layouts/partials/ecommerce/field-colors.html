@@ -1,1 +1,3 @@
-{{- range $color := split .colors "," }}<span class="w-4 h-4 mr-2 rounded inline-block" style="background-color: {{ index $.colorSchemes $color }};">&nbsp;</span>{{ end -}}
+{{- range $color := split .colors "," }}
+<span class="w-4 h-4 mr-2 rounded-full inline-block" style="background-color: {{ index $.presets $color }};">&nbsp;</span>
+{{ end -}}
