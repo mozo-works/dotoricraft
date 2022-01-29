@@ -1,6 +1,6 @@
-{{- $partialPath := (.Get 0) -}}
+{{- $partialPath := (.Get "template") -}}
 {{ if templates.Exists ( printf "partials/%s" $partialPath ) }}
-  {{ partial $partialPath . }}
+  {{ partial $partialPath (dict "params" .Params "inner" .Inner) }}
 {{ else }}
-  {{ $partialPath }}
+  {{ $partialPath }} not found!
 {{ end }}

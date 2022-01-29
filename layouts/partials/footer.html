@@ -1,14 +1,9 @@
-<section class="w-full border-t-2 pt-2">
-  <footer class="max-w-2xl lg:max-w-7xl mx-auto px-4 flex justify-between bg-white h-16">
-    <ul class="list-inline mt-xs-3 mb-xs-4 mb-sm-0 pl-xs-4 pr-xs-4 pl-sm-0 pr-sm-0">
-    {{ range $social, $link := $.Site.Params.social.links }}
-      <li class="inline">
-        <a class="p-xs-1" href="{{ $link }}" target="_blank">
-          svg {{ $social }}
-          <span class="sr-only">{{ $social }}</span>
-        </a>
-      </li>
-    {{ end }}
-    </ul>
-  </footer>
-</section>
+<footer class="w-full py-6 bg-slate-900 text-slate-100">
+  <div class="container max-w-2xl lg:max-w-7xl mx-auto px-4 flex justify-between">
+    <div class="store-info">
+      <h2 class="tex-base">{{ .Site.Title }}</h2>
+      {{ with .Site.Params.store }}<div class="text-sm my-3">대표자: {{ .representative }} | 사업자등록번호: {{ .registration }} | 통신판매업신고: <a href="{{ .mailOrder.url }}" target="_blank">{{ .mailOrder.number }}</a><br>주소: {{ .address }}<br>전화번호: {{ .phone }} | 이메일: {{ .email }}<br>운영시간: {{ .BusinessHours }}</div>{{ end }}
+    </div>
+    <ul class="store-links">{{- range $brand, $link := $.Site.Params.store.links }}<li class="p-1 m-2 md:inline"><a class="p-xs-1" href="{{ $link }}" target="_blank">{{ partial "base/svg" (printf "brand/%s" $brand) }}<span class="sr-only">{{ $brand }}</span></a></li>{{ end -}}</ul>
+  </div>
+</footer>

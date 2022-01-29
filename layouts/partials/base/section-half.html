@@ -1,0 +1,10 @@
+<section class="min-h-screen flex items-center justify-center">
+  <div class="grid grid-cols-2 gap-2 w-full">
+    <div class="col bg-slate-700">
+      <img src="{{ .params.image }}" alt="">
+    </div>
+    <div class="col bg-gray-100">
+      {{ .inner | markdownify }}
+    </div>
+  </div>
+</section>

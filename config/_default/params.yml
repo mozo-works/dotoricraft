@@ -8,35 +8,36 @@ images:
 - dotoricraft.jpg
 - dotoricraft.png
 brand:
-  logoType:
-  logoMark:
-  logo:
-social:
-  links:
-    naverShopping: https://shopping.naver.com/living/handmade/stores/100125606
-    etsy: https://www.etsy.com/shop/DotoriCraft
-    instagram: https://www.instagram.com/dotori_yeo/
-    youtube: https://www.youtube.com/user/zooo0079
-  share:
-  - kakaotalk
-  - facebook
-  - twitter
-  - telegram
+  logoType: https://cdn.imweb.me/upload/S20191020441113b11031d/47fcef1c71f8d.png
+  logoMark: https://cdn.imweb.me/upload/S20191020441113b11031d/9d904e09a0704.png
+  logoMarkWhite: https://cdn.imweb.me/upload/S20191020441113b11031d/23be8bb3feac7.png
+  logo: https://cdn.imweb.me/upload/S20191020441113b11031d/d05cbd88f6c82.png
 
 store:
   representative: 여연주
   registration: 104-17-05284
   mailOrder:
     number: 2020-서울중구-0058
-    url: https://www.ftc.go.kr/www/bizCommView.do?key=232&apv_perm_no=2020301016530200058
+    url: http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1041705284
   address: 서울 중구 충무로 50-7 (을지로3가) 306호 우) 04549
   phone: 010-8779-0855
   email: dotoricraft@gmail.com
+  businessHours: 월~금 11:00-18:30
   termsOfuse: '/terms-of-use'
   privacyPolicy: '/privacy-policy'
+  links:
+    instagram: https://www.instagram.com/dotori_yeo/
+    youtube: https://www.youtube.com/user/zooo0079
+    naverShopping: https://shopping.naver.com/living/handmade/stores/100125606
+    etsy: https://www.etsy.com/shop/DotoriCraft
+  share:
+  - kakaotalk
+  - facebook
+  - twitter
+  - telegram
 
 product:
-  colors:
+  colorScheme:
     베이지: '#eadeb4'
     블랙: '#000000'
     오랜지: '#ff9800'
