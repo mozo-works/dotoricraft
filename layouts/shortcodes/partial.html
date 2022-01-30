@@ -1,6 +1,7 @@
 {{- $partialPath := (.Get "template") -}}
-{{ if templates.Exists ( printf "partials/%s" $partialPath ) }}
-  {{ partial $partialPath (dict "params" .Params "inner" .Inner) }}
+{{- $partialParams := merge (dict "params" .Params "inner" .Inner) (dict "data" .Site.Data) }}
+{{- if templates.Exists ( printf "partials/%s" $partialPath ) }}
+  {{ partial $partialPath $partialParams }}
 {{ else }}
   {{ $partialPath }} not found!
-{{ end }}
+{{ end -}}
