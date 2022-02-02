@@ -3,7 +3,6 @@ import intersect from '@alpinejs/intersect'
 import persist from '@alpinejs/persist'
 import focus from '@alpinejs/focus'
 import collapse from '@alpinejs/collapse'
-import * as params from '@params'
 import { Iodine } from '@kingshott/iodine';
 
 const iodine = new Iodine();

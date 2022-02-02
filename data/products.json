@@ -9,7 +9,8 @@
     "tags": "신상품",
     "price": "57000",
     "sale_price": "52000",
-    "thumbnail": "https://cdn.imweb.me/thumbnail/20200407/b8984d5b150aa.jpg"
+    "thumbnail": "https://cdn.imweb.me/thumbnail/20200407/b8984d5b150aa.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200427_196/1587978508876IH1Uw_JPEG/SE-0cd14ae4-e8ca-441e-baef-e72ac1f689d8.jpg"
   },
   {
     "id": "4909946521",
@@ -21,7 +22,8 @@
     "tags": "신상품",
     "price": "57000",
     "sale_price": "52000",
-    "thumbnail": "https://cdn.imweb.me/thumbnail/20200407/cbf59d59503d0.jpg"
+    "thumbnail": "https://cdn.imweb.me/thumbnail/20200407/cbf59d59503d0.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200428_110/1588050012199PIoyg_JPEG/25413400711672500_308377268.jpg"
   },
   {
     "id": "4911050846",
@@ -34,6 +36,7 @@
     "price": "57000",
     "sale_price": "52000",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20200407/1b77ec25a65db.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200428_281/1588052113061t1bNg_JPEG/25411947599002396_1074591231.jpg",
     "colors": "베이지,블랙"
   },
   {
@@ -47,6 +50,7 @@
     "price": "",
     "sale_price": "39000",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20210113/f0dd744de3210.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200428_145/1588052952067HeBJt_JPEG/25412786606602252_2131265615.jpg",
     "colors": "베이지,블랙,오랜지,레드"
   },
   {
@@ -60,6 +64,7 @@
     "price": "37000",
     "sale_price": "29000",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20210111/4f0ac97e05737.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200427_139/1587969677238XlDXN_JPEG/25329511780299355_148596239.jpg",
     "colors": "카라멜,레드,올리브,진밤,베이지,노랑"
   },
   {
@@ -73,6 +78,7 @@
     "price": "37000",
     "sale_price": "29000",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20200409/02a79fb634dba.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200428_110/1588048700917Jzi5V_JPEG/25409439545191873_365651392.jpg",
     "colors": "핑크,레몬,스카이"
   },
   {
@@ -86,6 +92,7 @@
     "price": "34000",
     "sale_price": "29000",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20200408/f05ea79fe978f.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200427_300/158797159021420hd8_JPEG/25334978729702551_1867725520.jpg",
     "colors": "핑크,레몬,스카이"
   },
   {
@@ -99,6 +106,7 @@
     "price": "34000",
     "sale_price": "29000",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20200408/4edf209f30501.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200427_224/1587966581293zatV5_JPEG/25328123903298543_1431934927.jpg",
     "colors": "베이지,카라멜,노랑,레드,올리브,진밤"
   },
   {
@@ -112,6 +120,7 @@
     "price": "",
     "sale_price": "9000",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20200409/63318c37731e9.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200427_1/1587973280699YOHRO_JPEG/25334019047215687_555308069.jpg",
     "colors": "베이지,카라멜,노랑,레드,올리브,진밤"
   },
   {
@@ -125,6 +134,7 @@
     "price": "",
     "sale_price": "9000",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20200408/7c45fd0570bbe.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200427_291/1587974232543qW4PI_JPEG/25336566115812090_1267489471.jpg",
     "colors": "핑크,레몬,스카이"
   },
   {
@@ -137,7 +147,8 @@
     "tags": "신상품",
     "price": "110000",
     "sale_price": "89000",
-    "thumbnail": "https://cdn.imweb.me/thumbnail/20200515/ba7b3a8b2eb7f.jpg"
+    "thumbnail": "https://cdn.imweb.me/thumbnail/20200515/ba7b3a8b2eb7f.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200515_282/1589520919600ltDMS_JPEG/26884308108584694_1080403108.jpg"
   },
   {
     "id": "4931298425",
@@ -149,7 +160,8 @@
     "tags": "신상품",
     "price": "110000",
     "sale_price": "89000",
-    "thumbnail": "https://cdn.imweb.me/thumbnail/20200515/d7347aab23072.jpg"
+    "thumbnail": "https://cdn.imweb.me/thumbnail/20200515/d7347aab23072.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200515_206/1589532838051jnCPN_JPEG/26896226562035019_554989068.jpg"
   },
   {
     "id": "4976381033",
@@ -161,7 +173,8 @@
     "tags": "신상품",
     "price": "220000",
     "sale_price": "198000",
-    "thumbnail": "https://cdn.imweb.me/thumbnail/20200628/b7d298b9aca66.jpg"
+    "thumbnail": "https://cdn.imweb.me/thumbnail/20200628/b7d298b9aca66.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200617_159/1592380671125xNwLK_JPEG/29744059639283263_506491359.jpg"
   },
   {
     "id": "4976444255",
@@ -173,7 +186,8 @@
     "tags": "신상품",
     "price": "220000",
     "sale_price": "198000",
-    "thumbnail": "https://cdn.imweb.me/thumbnail/20210112/de59f75e293e8.jpg"
+    "thumbnail": "https://cdn.imweb.me/thumbnail/20210112/de59f75e293e8.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200617_146/1592383929863bUojt_JPEG/29745472499414099_900305981.jpg"
   },
   {
     "id": "5003561761",
@@ -185,7 +199,8 @@
     "tags": "신상품",
     "price": "220000",
     "sale_price": "198000",
-    "thumbnail": "https://cdn.imweb.me/thumbnail/20200706/1c2cb76ce63b3.jpg"
+    "thumbnail": "https://cdn.imweb.me/thumbnail/20200706/1c2cb76ce63b3.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200625_14/1593090079317PzPci_JPEG/30450817787660585_636935880.jpg"
   },
   {
     "id": "5003580907",
@@ -197,7 +212,8 @@
     "tags": "신상품",
     "price": "220000",
     "sale_price": "198000",
-    "thumbnail": "https://cdn.imweb.me/thumbnail/20210109/c0ec7de826a69.jpg"
+    "thumbnail": "https://cdn.imweb.me/thumbnail/20210109/c0ec7de826a69.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20200628_150/1593332784533CdgaK_JPEG/30696173050440058_91221228.jpg"
   },
   {
     "id": "5151374627",
@@ -210,6 +226,7 @@
     "price": "",
     "sale_price": "36000",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20201007/c162ebe8e8c61.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20201007_280/1602078723753u8VxD_JPEG/3214558582662107_1153315007.jpg",
     "colors": "카라멜,레드,올리브,진밤,베이지"
   },
   {
@@ -223,6 +240,7 @@
     "price": "",
     "sale_price": "39000",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20210112/5091dfaa059af.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20201023_179/1603441024608S2gHM_JPEG/4576804321782014_1421818549.jpg",
     "colors": "카라멜,레드,올리브,진밤,베이지"
   },
   {
@@ -236,6 +254,7 @@
     "price": "",
     "sale_price": "69000",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20210111/4457ff5752e56.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20210113_100/1610516047166kIjgG_JPEG/11651874962935191_1662629852.jpg",
     "colors": "카라멜,레드,올리브,진밤,베이지"
   },
   {
@@ -249,6 +268,7 @@
     "price": "",
     "sale_price": "3900",
     "thumbnail": "https://cdn.imweb.me/thumbnail/20210115/6aa0132b5aa8e.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20210115_3/1610681774166k4BtD_JPEG/11817553884132133_1349722293.jpg",
     "colors": "베이지,카라멜,노랑,레드,올리브,진밤"
   },
   {
@@ -261,7 +281,8 @@
     "tags": "신상품",
     "price": "",
     "sale_price": "5900",
-    "thumbnail": "https://cdn.imweb.me/thumbnail/20210120/21a6e0f9559ba.jpg"
+    "thumbnail": "https://cdn.imweb.me/thumbnail/20210120/21a6e0f9559ba.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20210120_286/1611122456478e73Uq_JPEG/12258240152066033_53077337.jpg"
   },
   {
     "id": "5373039731",
@@ -273,6 +294,7 @@
     "tags": "신상품",
     "price": "",
     "sale_price": "10900",
-    "thumbnail": "https://cdn.imweb.me/thumbnail/20210201/d0feee5241f33.jpg"
+    "thumbnail": "https://cdn.imweb.me/thumbnail/20210201/d0feee5241f33.jpg",
+    "thumbnail2": "https://shop-phinf.pstatic.net/20210201_288/1612164110770wLAfs_JPEG/13299944420084223_467266678.jpg"
   }
 ]

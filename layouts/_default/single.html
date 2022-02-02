@@ -16,11 +16,12 @@
       </div>
       <div class="contact">
         <p>{{ .Address }}<br>
-        {{ .Phone }} | {{ .Email }}<br>
+          <a href="tel:{{ .phone }}">{{ .phone }}</a> {{ partial "base/click-to-copy" .phone }} |
+          {{ .email }}{{ partial "base/click-to-copy" .email }}<br>
         {{ .BusinessHours }}</p>
       </div>
       <div class="bank">
-        <p>계좌 정보<br>
+        <p>계좌 정보 {{ partial "base/click-to-copy" "국민은행 778801-04-394199" }}<br>
         778801-04-394199<br>
         국민은행 여연주(도토리크라프트)</p>
       </div>
