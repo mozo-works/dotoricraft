@@ -1,7 +1,7 @@
 <section class="flex items-center justify-center">
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
     {{- if ne .params.imageFirst "false" }}
-    <div class="col">
+    <div class="col not-prose">
       <img src="{{ .params.image }}" alt="">
     </div>
     <div class="col">
