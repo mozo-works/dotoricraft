@@ -5,7 +5,10 @@
       {{- with .Site.Params.store }}
       <div class="text-sm my-3">
         대표자: {{ .representative }} | 사업자등록번호: {{ .registration }} | 통신판매업신고: <a href="{{ .mailOrder.url }}" target="_blank">{{ .mailOrder.number }}</a><br>
-        주소: {{ .address }} {{ partial "base/click-to-copy" .address }}<br>
+        주소: {{ .address }} {{ partial "base/click-to-copy" .address }}
+        | <a href="{{ .location.kakao }}" target="_blank">카카오맵</a>
+        | <a href="{{ .location.naver }}" target="_blank">네이버맵</a>
+        <br>
         전화번호: <a href="tel:{{ .phone }}">{{ .phone }}</a> {{ partial "base/click-to-copy" .phone }}
         | 이메일: {{ .email }} {{ partial "base/click-to-copy" .email }}<br>
         운영시간: {{ .BusinessHours }}
