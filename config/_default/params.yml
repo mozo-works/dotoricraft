@@ -52,3 +52,8 @@ product:
     핑크: '#fea3d7'
     레몬: '#fff5b9'
     스카이: '#9ae0fb'
+
+# banner:
+#   topbar:
+#     title: 탑배너
+#     link: /
