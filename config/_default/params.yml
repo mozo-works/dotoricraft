@@ -33,6 +33,15 @@ store:
     youtube: https://www.youtube.com/user/zooo0079
     naverShopping: https://shopping.naver.com/living/handmade/stores/100125606
     etsy: https://www.etsy.com/shop/DotoriCraft
+  footerLinks:
+  - brand: instagram
+    url: https://www.instagram.com/dotori_yeo/
+  - brand: youtube
+    url: https://www.youtube.com/user/zooo0079
+  - brand: naver
+    url: https://shopping.naver.com/living/handmade/stores/100125606
+  - brand: etsy
+    url: https://www.etsy.com/shop/DotoriCraft
   share:
   - kakaotalk
   - facebook

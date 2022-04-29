@@ -15,6 +15,10 @@
       </div>
       {{ end -}}
     </div>
-    <ul class="store-links -ml-3 md:ml-0">{{- range $brand, $link := $.Site.Params.store.links }}<li class="p-1 m-2 inline"><a class="p-xs-1" href="{{ $link }}" target="_blank">{{ partial "base/svg" (printf "brand/%s" $brand) }}<span class="sr-only">{{ $brand }}</span></a></li>{{ end -}}</ul>
+    <ul class="store-links -ml-3 md:ml-0">{{- range $link := $.Site.Params.store.footerLinks }}
+      <li class="p-1 m-2 inline"><a class="p-xs-1" href="{{ $link.url }}" target="_blank">
+        {{ partial "base/svg" (printf "brand/%s" (lower $link.brand)) }}<span class="sr-only">{{ $link.brand }}</span>
+      </a></li>
+    {{ end -}}</ul>
   </div>
 </footer>

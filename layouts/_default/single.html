@@ -22,8 +22,8 @@
       </div>
       <div class="bank">
         <p>계좌 정보 {{ partial "base/click-to-copy" "국민은행 778801-04-394199" }}<br>
-        778801-04-394199<br>
-        국민은행 여연주(도토리크라프트)</p>
+        <a href="#" x-data="{status: false}" x-init="if (typeof navigator.clipboard == 'undefined'){ $el.style.disaply='none'; }" @click="navigator.clipboard.writeText('국민은행 778801-04-394199');status=true;">국민은행 778801-04-394199</a><br>
+        여연주(도토리크라프트)</p>
       </div>
     </footer>
     {{ end -}}

@@ -5,3 +5,7 @@ languageCode: ko-kr
 defaultContentLanguage: ko
 hasCJKLanguage: true
 newContentEditor: code
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

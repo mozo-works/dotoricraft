@@ -2,6 +2,7 @@ const baseDir = __dirname + '/../..';
 module.exports = {
   darkMode: 'class',
 	content: [
+    baseDir + '/content/**/*.md',
     baseDir + '/layouts/**/*.html',
     baseDir + '/assets/**/*.{js,html}'
   ],
