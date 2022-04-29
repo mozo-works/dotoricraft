@@ -5,13 +5,13 @@ description: |
   오래두고 아끼며 사용할 물건을 만들겠다는 생각으로 여러번 고쳐 완성된 디자인에 한땀 한땀 정성들여 바느질하고 꼼꼼하게 마감합니다.
 keywords: "가죽공방, 가죽공예, 주문제작, 원데이클래스, 카드지갑"
 images:
-- dotoricraft.jpg
-- dotoricraft.png
+- /assets/dotoricraft.jpg
+- /assets/dotoricraft.png
 brand:
-  logoType: https://cdn.imweb.me/upload/S20191020441113b11031d/47fcef1c71f8d.png
-  logoMark: https://cdn.imweb.me/upload/S20191020441113b11031d/9d904e09a0704.png
-  logoMarkWhite: https://cdn.imweb.me/upload/S20191020441113b11031d/23be8bb3feac7.png
-  logo: https://cdn.imweb.me/upload/S20191020441113b11031d/d05cbd88f6c82.png
+  logoType: /assets/47fcef1c71f8d.png
+  logoMark: /assets/9d904e09a0704.png
+  logoMarkWhite: /assets/23be8bb3feac7.png
+  logo: /assets/d05cbd88f6c82.png
 
 store:
   representative: 여연주
@@ -61,8 +61,3 @@ product:
     핑크: '#fea3d7'
     레몬: '#fff5b9'
     스카이: '#9ae0fb'
-
-# banner:
-#   topbar:
-#     title: 탑배너
-#     link: /

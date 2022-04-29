@@ -1,24 +1,24 @@
 - title: 에어팟케이스
   duration: 1.5~2시간
   price: 45,000
-  image: https://cdn.imweb.me/thumbnail/20200907/47ac4cd3f7252.jpg
+  image: /assets/47ac4cd3f7252.jpg
 - title: 통통이지갑
   duration: 3~3.5시간
   price: 55,000
-  image: https://cdn.imweb.me/thumbnail/20200907/75d94fb451307.jpeg
+  image: /assets/75d94fb451307.jpeg
 - title: 미니멀리스트 카드지갑
   duration: 3~3.5시간
   price: 55,000
-  image: https://cdn.imweb.me/thumbnail/20201007/d731adde1d950.jpg
+  image: /assets/d731adde1d950.jpg
 - title: 납작 카드지갑
   duration: 3.5~4시간
   price: 60,000
-  image: https://cdn.imweb.me/thumbnail/20201104/39835207346ea.jpg
+  image: /assets/39835207346ea.jpg
 - title: 지퍼지갑
   duration: 4~5시간
   price: 70,000
-  image: https://cdn.imweb.me/thumbnail/20200910/5ff416c8121f6.jpg
+  image: /assets/5ff416c8121f6.jpg
 - title: 통통한 핸드폰가방(L)
   duration: 5~5.5시간
   price: 120,000
-  image: https://cdn.imweb.me/thumbnail/20200907/b3772e85657c3.jpg
+  image: /assets/b3772e85657c3.jpg

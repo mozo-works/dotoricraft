@@ -3,8 +3,8 @@ title: "수업"
 date: 2022-01-25T21:43:48+09:00
 description:
 images:
-- https://cdn.imweb.me/upload/S20191020441113b11031d/f16c4953cd425.jpeg
-- https://cdn.imweb.me/upload/S20191020441113b11031d/cb23e8119733d.jpeg
+- /assets/f16c4953cd425.jpeg
+- /assets/cb23e8119733d.jpeg
 tags:
 - 원데이클라스
 - 취미
@@ -12,7 +12,7 @@ tags:
 - 정규수업
 ---
 
-{{< partial template="base/section-half.html" image="https://cdn.imweb.me/thumbnail/20200907/c1d43d76899fb.jpeg" >}}
+{{< partial template="base/section-half.html" image="/assets/c1d43d76899fb.jpeg" >}}
 ## 원데이클라스 One day class {.mt-0}
 
 > 처음이어도... 손재주가 없어도...    
@@ -39,7 +39,7 @@ tags:
 
 {{< partial template="ecommerce/class-card.html" >}}{{< /partial >}}
 
-{{< partial template="base/section-half.html" image="https://cdn.imweb.me/thumbnail/20200907/0a832d5ecb0bc.jpeg" imageFirst="false" >}}
+{{< partial template="base/section-half.html" image="/assets/0a832d5ecb0bc.jpeg" imageFirst="false" >}}
 ## 정규 클라스 Regular class
 
 정규과정은 가죽공예의 전반적인 기술을    
