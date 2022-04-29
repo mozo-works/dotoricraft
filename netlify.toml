@@ -8,3 +8,9 @@
   functionsPort = 8889
   port = 8888
   targetPort = 1313
+
+[[redirects]]
+  from = "https://dotoricraft.netlify.app/*"
+  to = "https://dotoricraft.com/:splat"
+  status = 301
+  force = true
