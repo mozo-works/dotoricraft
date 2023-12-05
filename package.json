@@ -31,11 +31,6 @@
     "watch:css": "tailwindcss -c assets/_jsconfig/tailwind.config.js -i ./assets/app.css -o ./static/assets/app.min.css --watch --minify",
     "watch:hugo": "hugo serve --ignoreCache -D",
     "build:css": "tailwindcss -c assets/_jsconfig/tailwind.config.js -i ./assets/app.css -o ./static/assets/app.min.css --minify",
-    "build:hugo": "hugo --gc --minify",
-    "dev": "ntl dev",
-    "deploy": "ntl deploy --prod"
-  },
-  "dependencies": {
-    "google-spreadsheet": "^3.2.0"
+    "build:hugo": "hugo --gc --minify"
   }
 }
