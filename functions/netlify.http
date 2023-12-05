@@ -1,9 +1,0 @@
-### files
-GET https://api.netlify.com/api/v1/sites/59564d21-25f1-4ffa-92ef-6dd6c6b392cd/files HTTP/1.1
-Authorization: Bearer duwsYhmj0EZXGmXDU-okvhlczKUalMBCfLPVD8k-fNQ
-content-type: application/json
-
-### deploys
-GET https://api.netlify.com/api/v1/sites/59564d21-25f1-4ffa-92ef-6dd6c6b392cd/deploys HTTP/1.1
-content-type: application/json
-
